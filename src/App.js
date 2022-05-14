@@ -4,12 +4,12 @@ import Navbar from './pages/Shared/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
-import Appointment from './pages/Appointment/Appointment'
+import Appointment from './pages/Appointment/Appoinment'
 import Reviews from './pages/Reviews/Reviews';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
